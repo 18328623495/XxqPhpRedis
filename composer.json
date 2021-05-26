@@ -1,0 +1,20 @@
+{
+    "name": "xxqphpredis/redissdk",
+    "description": "php redis 连接处理",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "许显琼",
+            "email": "604356827@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XxqRedis\\": "src/"
+        }
+    }
+}
